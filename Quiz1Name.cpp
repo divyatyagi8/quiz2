@@ -1,12 +1,15 @@
 ﻿// Quiz1Name.cpp : Defines the entry point for the application.
 //
 
-#include "Quiz1Name.h"
+#include <iostream>
+#include <string>
 
-using namespace std;
+using std::cout, std::endl, std::string;
 
 int main()
 {
+	const auto collaboratorName = string("Steven Velasquez");
 	cout << "Divya Tyagi" << endl;
+	cout << "Collaborator: " << collaboratorName << endl;
 	return 0;
 }

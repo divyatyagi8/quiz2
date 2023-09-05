@@ -9,10 +9,10 @@ if (POLICY CMP0141)
   set(CMAKE_MSVC_DEBUG_INFORMATION_FORMAT "$<IF:$<AND:$<C_COMPILER_ID:MSVC>,$<CXX_COMPILER_ID:MSVC>>,$<$<CONFIG:Debug,RelWithDebInfo>:EditAndContinue>,$<$<CONFIG:Debug,RelWithDebInfo>:ProgramDatabase>>")
 endif()
 
-project ("Quiz1Name")
+project (Quiz1Name)
 
 # Add source to this project's executable.
-add_executable (Quiz1Name "Quiz1Name.cpp" "Quiz1Name.h")
+add_executable (Quiz1Name Quiz1Name.cpp)
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET Quiz1Name PROPERTY CXX_STANDARD 20)
