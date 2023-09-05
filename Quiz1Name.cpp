@@ -9,7 +9,7 @@ using std::cout, std::endl, std::string;
 int main()
 {
 	const auto collaboratorName = string("Steven Velasquez");
-	cout << "Divya Tyagi" << endl;
+	cout << "Hello Divya Tyagi" << endl;
 	cout << "Collaborator: " << collaboratorName << endl;
 	return 0;
 }
